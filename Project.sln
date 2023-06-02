@@ -1,8 +1,29 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{DF88737E-EFF7-4EAB-92B5-6C14AD683EE8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "dev", "dev", "{CA629A74-44EE-415E-8D1C-2B87D91D4AF4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "api", "api", "{CE049AE4-BA01-4280-BE4C-36E8E0D40C69}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ui ", "ui ", "{A020C9C7-694C-4D0C-ABA2-CE9D27AECB47}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "project", "project\project.csproj", "{96C8CB28-F1BB-4B17-AECB-5D5737C3E19E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CE049AE4-BA01-4280-BE4C-36E8E0D40C69} = {DF88737E-EFF7-4EAB-92B5-6C14AD683EE8}
+		{A020C9C7-694C-4D0C-ABA2-CE9D27AECB47} = {DF88737E-EFF7-4EAB-92B5-6C14AD683EE8}
+		{96C8CB28-F1BB-4B17-AECB-5D5737C3E19E} = {CE049AE4-BA01-4280-BE4C-36E8E0D40C69}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{96C8CB28-F1BB-4B17-AECB-5D5737C3E19E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96C8CB28-F1BB-4B17-AECB-5D5737C3E19E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96C8CB28-F1BB-4B17-AECB-5D5737C3E19E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96C8CB28-F1BB-4B17-AECB-5D5737C3E19E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
